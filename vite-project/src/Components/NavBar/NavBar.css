@@ -1,0 +1,45 @@
+.NavBarContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavBarContainer span{
+    margin-right: 1rem;
+}
+
+.NavBar-left, 
+.NavBar-right,
+.inputBox,
+.userBox,
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    width: 20rem;
+    margin-right: 1rem;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px gainsboro solid;
+    background-color: white;
+}
+
+.inputBox input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.userBox{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px gainsboro solid;
+}
+
+.searchBox{
+    padding: 0.5rem;
+}

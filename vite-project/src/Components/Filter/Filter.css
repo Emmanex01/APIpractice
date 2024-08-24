@@ -1,0 +1,31 @@
+.FilterContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.Filter-left,
+.Filter-right,
+.Filter-right-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Filter-right div{
+    background-color: #FEFCFF;
+    margin-left: 1rem;
+}
+
+.Filter-left div,
+.Filter-right div{
+    padding: 0.4rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Filter-left{
+    padding: 0.2rem;
+    background-color: #e1d2e9;
+}
